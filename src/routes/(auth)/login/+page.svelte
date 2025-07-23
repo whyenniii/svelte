@@ -1,5 +1,5 @@
 <div class="flex items-center justify-center h-screen bg-slate-100 dark:bg-gray-900">
-  <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 w-full max-w-md">
+  <div class="g dark:bg-gray-800 shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 w-full max-w-md">
     <h2 class="block text-gray-700 dark:text-gray-200 text-center text-xl font-bold mb-6">
       로그인
     </h2>

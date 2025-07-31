@@ -6,11 +6,6 @@
 
     let name : string = $state("");
     let nameLength: number = $derived(name.length);
-    let time : Date = new Date();
-
-    const timePromise = new Promise<string>((resolve) => {
-        setTimeout(() => resolve(`현재 시간 : ${time}`), 2000);
-    });
 
     let {title, minLength}: Props = $props();
 </script>
@@ -47,3 +42,4 @@
     </h4>
   </div>
 </div>
+

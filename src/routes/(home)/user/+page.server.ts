@@ -1,6 +1,6 @@
 import { dev } from "$app/environment";
 import type { User } from "$lib/types/user";
-import type { Actions } from "./$types";
+import type { Actions } from "../../../../.svelte-kit/types/src/routes";
 
 type AppDatabase = {
     users: User[];

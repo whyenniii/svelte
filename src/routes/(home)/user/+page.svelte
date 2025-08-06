@@ -3,7 +3,7 @@
     import { invalidateAll } from "$app/navigation";
     import Modal from "$lib/components/ui/Modal.svelte";
     import type { User } from "$lib/types/user.ts";
-    import type { ActionData, PageData } from "./$types";
+    import type { ActionData, PageData } from "../../../../.svelte-kit/types/src/routes";
 
     let {
         data,
